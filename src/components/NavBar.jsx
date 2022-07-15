@@ -12,24 +12,24 @@ function Navbar() {
         <img src={Inaam} alt='Inaam' style={{width: '80px'}} />
       </div>
 
-        <ul className='hidden md:flex'>
-          <li className='hover:text-2xl duration-150'>
+       <ul className='hidden md:flex'>
+          <li className='hover:text-2xl hover:text-[#0e9fbc] duration-150'>
           <Link to='home' smooth={true} duration={500}>
             Home
           </Link>
           </li>
           
-          <li className='hover:text-2xl duration-150'>
+          <li className='hover:text-2xl hover:text-purple-500 duration-150'>
           <Link to='about' smooth={true} duration={500}>
             About
           </Link>
           </li>
-          <li className='hover:text-2xl duration-150'>
+          <li className='hover:text-2xl hover:text-orange-500 duration-150'>
           <Link to='skills' smooth={true} duration={500}>
             Skills
           </Link>
           </li>
-          <li className='hover:text-2xl duration-150'>
+          <li className='hover:text-2xl hover:text-red-600 duration-150'>
           <Link to='experience' smooth={true} duration={500}>
             Experience
           </Link>

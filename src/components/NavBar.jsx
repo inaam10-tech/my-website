@@ -82,7 +82,7 @@ function Navbar() {
               LinkedIn <FaLinkedinIn size={25} className='text-blue-300'/>
             </a>
           </li>
-          <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-200 bg-[#833AB4]'>
+          <li className='w-[190px] h-[60px] flex justify-between items-center ml-[-130px] hover:ml-[-10px] duration-200 bg-[#833AB4]'>
             <a className='flex justify-between items-center w-full ' href='https://www.instagram.com/inaam.29/'>
               Instagram <FaInstagram size={25} className='text-purple-300'/>
             </a>

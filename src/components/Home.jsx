@@ -1,7 +1,7 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import Typed from 'react-typed';
-import Inaam from './inaam.pdf';
+import Inaam from './Inaam_Resume.pdf';
 import {Link} from 'react-scroll';
 
 const Home = () => {

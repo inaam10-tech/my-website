@@ -1,9 +1,9 @@
 import React from 'react'
-import GitHub from '../assets/github.png'
 import Python from '../assets/python.png'
 import Javascript from '../assets/javascript.png'
 import ReactIcon from '../assets/react.png'
 import Node from '../assets/node.png'
+import Mongo from '../assets/mongo.png'
 import Java from '../assets/java.png'
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import {Link} from 'react-scroll';
@@ -22,7 +22,7 @@ function Skills() {
                       <img className='w-20 mx-auto' src={ReactIcon} alt="HTML icon" />
                       <p className='my-4'>REACT</p>
                   </div>
-                  <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
+                  <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500 '>
                       <img className='w-20 mx-auto' src={Javascript} alt="HTML icon" />
                       <p className='my-4'>JAVASCRIPT</p>
                   </div>
@@ -31,8 +31,8 @@ function Skills() {
                       <p className='my-4'>PYTHON</p>
                   </div>
                   <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
-                      <img className='w-20 mx-auto' src={GitHub} alt="HTML icon" />
-                      <p className='my-4'>GITHUB</p>
+                      <img className='w-20 mx-auto' src={Mongo} alt="HTML icon" />
+                      <p className='my-4'>MONGODB</p>
                   </div>
                   <div className='shadow-md shadow-[#040c16] hover:scale-110 duration-500'>
                       <img className='w-20 mx-auto' src={Node} alt="HTML icon" />

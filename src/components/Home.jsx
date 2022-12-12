@@ -25,7 +25,7 @@ const Home = () => {
           I'm a Full-Stack Developer and a UI/UX Designer with a desire to design and build products that are user-friendly and easy to use. I have a passion for learning new technologies and I am always looking to improve my skills and learn new things along the way to become a better developer.
         </p>
         <div className='flex justify-between'>
-        <a onClick={onResumeClick}> 
+        <a onClick={onResumeClick} href={Inaam}> 
         <button className='text-[#a9d2db] group rounded-[20px] border-2 px-6 py-3 my-2 flex items-center hover:bg-[#01B0D3] hover:border-blue-300'>
             Resume
           </button>

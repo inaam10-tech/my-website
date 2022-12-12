@@ -3,7 +3,7 @@ import Avolta from '../assets/Avolta.png'
 import Huffman from '../assets/Huffman.jpeg'
 import PremDictor from '../assets/PremDictor.jpeg'
 import Uber from '../assets/Uber-Eats.jpeg'
-import { HiArrowNarrowRight } from 'react-icons/hi';
+
 
 
 const Experience = () => {
@@ -41,15 +41,6 @@ const Experience = () => {
 
     ]
 
-    const renderItems = () => {
-        items.map( item => {
-            return (
-                <div className='w-full max-w-sm mx-auto p-4 flex flex-col justify-center h-full'>
-                    <img className='rounded-[20px] w-20 mx-auto' src={item.ImageUrl} alt="HTML icon" />
-                </div>
-            )
-        })
-    }
 
   return (
     <div name='experience' className='w-full h-[1600px] bg-[#242333] text-red-100'>

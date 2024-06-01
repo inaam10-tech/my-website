@@ -1,5 +1,5 @@
 // src/TextField.js
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 
 
 const TextField = () => {
@@ -12,11 +12,11 @@ const TextField = () => {
         setInputValue(event.target.value);
     };
 
-    useEffect(() => {
-        console.log('Secret Name:', secretName); // Check if the secret name is logged
-        console.log('Secret Name:', secretMessage); // Check if the secret name is logged
+    // useEffect(() => {
+    //     console.log('Secret Name:', secretName); // Check if the secret name is logged
+    //     console.log('Secret Name:', secretMessage); // Check if the secret name is logged
 
-    }, []);
+    // }, []);
 
 
     return (

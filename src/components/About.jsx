@@ -1,9 +1,11 @@
 import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import {Link} from 'react-scroll';
+import TextField from './Textfield';
 
 
 const About = () => {
+  
   return (
     <div name='about' className='w-full h-screen bg-[#242333] text-purple-200'>
       <div className='flex flex-col justify-center items-center w-full h-full'>
@@ -39,6 +41,8 @@ const About = () => {
         </div>
         </Link>
       </div>
+      <TextField />
+      
     </div>
   );
 };

@@ -46,14 +46,13 @@ const TextField = () => {
         <div className='flex items-center justify-center'> 
             {inputValue.toLowerCase() === secretName && (
                 <div>
-                    <p className='text-4xl hover:text-6xl font-bold duration-150'>{secretMessage}</p>
-                    <p className='text-4xl hover:text-6xl duration-150'></p>
+                    <p className='text-4xl hover:text-6xl hover:text-pink-500 font-bold duration-150'>{secretMessage}</p>
 
                 </div>
             )}
             {inputValue.toLowerCase() === secretName1 && (
                 <div>
-                    <p className='text-4xl hover:text-6xl font-bold duration-150'>{secretMessage1}</p>
+                    <p className='text-4xl hover:text-6xl hover:text-pink-500 font-bold duration-150'>{secretMessage1}</p>
                     <p className='text-4xl hover:text-6xl duration-150'></p>
 
                 </div>

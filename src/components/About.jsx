@@ -40,8 +40,13 @@ const About = () => {
             
         </div>
         </Link>
+        <div className='mt-10'>
+        <TextField />
+
+        </div>
+
       </div>
-      <TextField />
+      
       
     </div>
   );

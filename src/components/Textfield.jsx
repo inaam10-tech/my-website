@@ -6,6 +6,10 @@ const TextField = () => {
     const [inputValue, setInputValue] = useState('');
     const secretName = process.env.REACT_APP_SECRET_NAME;
     const secretMessage = process.env.REACT_APP_SECRET_MESSAGE;
+    const secretName1 = process.env.REACT_APP_SECRET_NAME1;
+    const secretMessage1 = process.env.REACT_APP_SECRET_MESSAGE1;
+
+
 
 
     const handleChange = (event) => {
@@ -47,6 +51,14 @@ const TextField = () => {
 
                 </div>
             )}
+            {inputValue.toLowerCase() === secretName1 && (
+                <div>
+                    <p className='text-4xl hover:text-6xl font-bold duration-150'>{secretMessage1}</p>
+                    <p className='text-4xl hover:text-6xl duration-150'></p>
+
+                </div>
+            )}
+
 
         </div>
     </>
